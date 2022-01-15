@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/background.png);
+    background-size: cover;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.conteudo {
+    width: 46%;
+    margin: auto;
+}
+
+.projeto {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.projeto .logo {
+    margin-bottom: 1.5rem;
+}
+
+.projeto h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.projeto h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.projeto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.form label {
+    margin-left: 5px;
+}
+
+.form button {
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: rgb(4, 112, 253);
+    color: white;
+}
+
+.form button:hover {
+    background-color: rgb(3, 86, 194);
+}
+
+ .formulario {
+     display: block;
+     width: 100%;
+     padding: 0.7rem;
+     border-radius: 5px;
+     border: none;
+     font-size: 1.2rem;
+     margin-bottom: 10px;
+ }
+
+ 
